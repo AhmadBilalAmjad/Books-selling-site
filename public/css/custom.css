@@ -1,0 +1,85 @@
+body {
+    overflow-x: hidden;
+    /* background-color: white; */
+}
+.back_img {
+    background: url("/storage/images/main_background.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.login_image {
+    background: url("/storage/images/main_background.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.mid_image_effect {
+    background: url("/storage/images/main_background.jpg");
+    min-height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+#typed_js {
+    margin-top: 30vh;
+}
+
+@media (max-width: 568px) {
+    /* .navbar-nav {
+        display: none;
+    } */
+
+    .adjust_font_typed {
+        font-size: 2em !important;
+    }
+}
+
+@media (min-width: 1000px) {
+    #image_1 {
+        height: 93vh !important;
+    }
+    #footer_bottom {
+        margin-top: 23.6vh;
+    }
+}
+@media (min-width: 768px) {
+    #login_form {
+        margin-left: 25vw;
+        margin-top: 25vh;
+    }
+    #footer_bottom {
+        margin-top: 23.6vh;
+    }
+}
+
+.typed-cursor {
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 4.5em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    animation: blink 0.5s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
